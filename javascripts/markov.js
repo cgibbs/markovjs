@@ -56,7 +56,6 @@ markovGenerate = function markovGenerate(marObj, times) {
 
 function gen() {
   let words = markovGenerate(markovReadChars($("#names")[0].value.split('\n')), 25);
-  console.log(words);
   $("#generatedNames")[0].value = words.join('\n');
 }
 

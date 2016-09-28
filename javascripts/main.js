@@ -9,12 +9,11 @@
 //   }
 // }).send();
 
-$.ajax("/lists/biblical_names.txt",{
+// $.ajax("/lists/biblical_names.txt",{
+$.ajax("javascripts/lists/biblical_names.txt", {
   type:    "GET",
   success: function(text) {
     // `text` is the file text
-    console.log(text);
-    console.log($("#names"));
     $("#names")[0].value = text;
   },
   error:   function() {
