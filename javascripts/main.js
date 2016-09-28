@@ -1,7 +1,7 @@
 
 
 var csvRequest = new Request({
-  url:"http://github.com/cgibbs/markovjs/tree/gh-pages/lists/biblical_names.txt",
+  url:"lists/biblical_names.txt",
   onSuccess:function(response){
       //The response text is available in the 'response' variable
       //Set the value of the textarea with the id 'csvResponse' to the response
