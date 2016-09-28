@@ -1,6 +1,6 @@
 // takes in strList, which is a list of example strings.
 // generates on a char basis, so it makes new words, not sentences
-exports.markovReadChars = function markovReadChars(strList) {
+markovReadChars = function markovReadChars(strList) {
   let markov = {}
   markov.starts = []
 
@@ -20,7 +20,7 @@ exports.markovReadChars = function markovReadChars(strList) {
   return markov;
 }
 
-exports.markovGenerate = function markovGenerate(marObj, times) {
+markovGenerate = function markovGenerate(marObj, times) {
   let words = [];
   let i = 0;
   while (i < times) {
@@ -52,4 +52,16 @@ exports.markovGenerate = function markovGenerate(marObj, times) {
     }
   }
   return words;
+}
+
+function gen() {
+  let words = markovGenerate(markovReadChars($("names").value.split('\n')), 25);
+  console.log(words);
+  $("generatedNames").value = words.join('\n');
+}
+
+window.onload = function() {
+  document.getElementById("genButton").addEventListener("click", function(event) {
+      gen();
+  }, false);
 }
