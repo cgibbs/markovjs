@@ -5,16 +5,16 @@ exports.markovReadChars = function markovReadChars(strList) {
   markov.starts = []
 
 
-  names.forEach(name => {
-    let splitName = name;
-    splitName += '.';
-    markov.starts.push(splitName[0] + splitName[1]);
-    for (let i = 0; i < splitName.length - 2; i++) {
-      const chunk = splitName[i] + splitName[i+1];
+  strList.forEach(word => {
+    let splitWord = word;
+    splitWord += '.';
+    markov.starts.push(splitWord[0] + splitWord[1]);
+    for (let i = 0; i < splitWord.length - 2; i++) {
+      const chunk = splitWord[i] + splitWord[i+1];
       if (chunk in markov)
-        markov[chunk].push(splitName[i+2]);
+        markov[chunk].push(splitWord[i+2]);
       else
-        markov[chunk] = [splitName[i+2]];
+        markov[chunk] = [splitWord[i+2]];
     }
   });
   return markov;
