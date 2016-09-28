@@ -1,25 +1,17 @@
-
-
-// var csvRequest = new Request({
-//   url:"/lists/biblical_names.txt",
-//   onSuccess:function(response){
-//       //The response text is available in the 'response' variable
-//       //Set the value of the textarea with the id 'csvResponse' to the response
-//     $("names").value = response;
-//   }
-// }).send();
-
-// $.ajax("/lists/biblical_names.txt",{
-$.ajax("javascripts/lists/biblical_names.txt", {
-  type:    "GET",
-  success: function(text) {
-    // `text` is the file text
-    $("#names")[0].value = text;
-  },
-  error:   function() {
-    // An error occurred
-    console.log("something died");
-  }
+$(document).ready(function() {
+  console.log("test onload");
+  document.getElementById("selButton").addEventListener("click", function(event) {
+    var s = $("#sel")[0];
+    $.ajax("javascripts/lists/" + s.options[s.selectedIndex].value + ".txt", {
+      type:    "GET",
+      success: function(text) {
+        // `text` is the file text
+        $("#names")[0].value = text;
+      },
+      error:   function() {
+        // An error occurred
+        console.log("something died");
+      }
+    });
+  }, false);
 });
-
-console.log('This would be the main JS file.');
