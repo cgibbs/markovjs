@@ -1,8 +1,6 @@
-const exports = module.exports = {};
-
 // takes in strList, which is a list of example strings.
 // generates on a char basis, so it makes new words, not sentences
-export.markovReadChars = function markovReadChars(strList) {
+function markovReadChars(strList) {
   let markov = {}
   markov.starts = []
 
@@ -22,7 +20,7 @@ export.markovReadChars = function markovReadChars(strList) {
   return markov;
 }
 
-exports.markovGenerate = function markovGenerate(marObj, times) {
+function markovGenerate(marObj, times) {
   let words = [];
   let i = 0;
   while (i < times) {
@@ -55,3 +53,5 @@ exports.markovGenerate = function markovGenerate(marObj, times) {
   }
   return words;
 }
+
+export { markovReadChars, markovGenerate };
