@@ -1,26 +1,26 @@
 // takes in strList, which is a list of example strings.
 // generates on a char basis, so it makes new words, not sentences
-markovReadChars = function markovReadChars(strList) {
+markovReadChars = function markovReadChars(strList, depth=2) {
   let markov = {}
   markov.starts = []
 
 
   strList.forEach(word => {
     let splitWord = word;
-    splitWord += '.';
-    markov.starts.push(splitWord[0] + splitWord[1]);
-    for (let i = 0; i < splitWord.length - 2; i++) {
-      const chunk = splitWord[i] + splitWord[i+1];
+    splitWord += '@';
+    markov.starts.push(splitWord.slice(0, depth));
+    for (let i = 0; i < splitWord.length - depth; i++) {
+      const chunk = splitWord.slice(i, i+depth);
       if (chunk in markov)
-        markov[chunk].push(splitWord[i+2]);
+        markov[chunk].push(splitWord[i+depth]);
       else
-        markov[chunk] = [splitWord[i+2]];
+        markov[chunk] = [splitWord[i+depth]];
     }
   });
   return markov;
 }
 
-markovGenerate = function markovGenerate(marObj, times) {
+markovGenerate = function markovGenerate(marObj, times, depth=2) {
   let words = [];
   let i = 0;
   while (i < times) {
@@ -33,8 +33,8 @@ markovGenerate = function markovGenerate(marObj, times) {
       continue;
     }
     let s = start + next;
-    let k = s[1] + s[2];
-    while (k[1] != '.') {
+    let k = s.slice(0,depth);
+    while (k[depth-1] != '.') {
       // console.log('test');
       let temp = next;
       if (k in marObj) {
@@ -43,10 +43,11 @@ markovGenerate = function markovGenerate(marObj, times) {
         // s = "";
         break;
       }
-      s += (next || '.');
+      s += (next || '@');
       k = temp + next;
     }
-    if (!!s) {
+    // depth + 1 is used because of the newline
+    if (!!s && s.length > depth * 2 + 1) {
       words.push(s.slice(0,-1));
       i++;
     }
@@ -54,14 +55,20 @@ markovGenerate = function markovGenerate(marObj, times) {
   return words;
 }
 
-function gen() {
+function replacePunctuation(corpus) {
+  let re = /(\.|\?)/;
+  return corpus.replace(re, "$1\n");
+}
+
+function gen(times=25, depth=2) {
   if ($("#names")[0].value === "") return;
-  let words = markovGenerate(markovReadChars($("#names")[0].value.split('\n')), 25);
+  let names = replacePunctuation($("#names")[0].value).split('\n');
+  let words = markovGenerate(markovReadChars(names, depth), times, depth);
   $("#generatedNames")[0].value = words.join('\n');
 }
 
 window.onload = function() {
   document.getElementById("genButton").addEventListener("click", function(event) {
-      gen();
+      gen($("#times")[0].value);
   }, false);
 }
