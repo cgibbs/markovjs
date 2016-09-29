@@ -1,12 +1,14 @@
 // takes in strList, which is a list of example strings.
 // generates on a char basis, so it makes new words, not sentences
-markovReadChars = function markovReadChars(strList, depth=2) {
+markovReadChars = function markovReadChars(strList, depth=2, delimiter="") {
+  if (depth < 2) return;
   let markov = {}
   markov.starts = []
 
 
   strList.forEach(word => {
     let splitWord = word;
+    if(delimiter) splitWord = splitWord.split(delimiter);
     splitWord += '@';
     markov.starts.push(splitWord.slice(0, depth));
     for (let i = 0; i < splitWord.length - depth; i++) {
@@ -21,6 +23,7 @@ markovReadChars = function markovReadChars(strList, depth=2) {
 }
 
 markovGenerate = function markovGenerate(marObj, times, depth=2) {
+  if (depth < 2) return;
   let words = [];
   let i = 0;
   while (i < times) {
@@ -47,7 +50,7 @@ markovGenerate = function markovGenerate(marObj, times, depth=2) {
       k = temp + next;
     }
     // depth + 1 is used because of the newline
-    if (!!s && s.length > depth * 2 + 1) {
+    if (!!s && s.length) {
       words.push(s.slice(0,-1));
       i++;
     }
