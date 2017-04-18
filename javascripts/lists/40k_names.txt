@@ -1,200 +1,304 @@
-Bernod Gaunt
-Malakim Rex
-Arjac Karkasy
-Macer Stern
-John Bloodfang
-Kregor Taranis
-Kynar Draigo
-Jonah Sicarius
-Nathaniel Morkai
-Gideon Chirosius
-Ferik Karkasy
-Ghankus Ashmantle
-Alicia Thule
-Nomus Sindermann
-Daerys Cestus
-Erasmus Grammaticus
-Darnath Belfry
-Gabriel Kyras
-Harek Phoros
-Leoten Kysnaros
-Anton Crowe
-Andreas Semper
-Iacton Haar
-Kregor Vibius
-Anton Qruze
-Marneus Lupercal
-Euphrati Culln
-Hol Bloodfang
-Jaq Dominica
-Elam Taranis
-Marius Akios
-Hechtor Draco
-Engir Haar
-Marius Calgar
-Jorin Valantion
-Indrick Ulanti
-Nârik Thawn
-Ephrael Bardane
-Merir Dragongaze
-Anval Karlaen
-Kyrl Sicarius
-Andreas Ramas
-Kjarl Drusil
-Ivanus Krakendoom
-Jonah Varren
-Harl Ramas
-Corvus Kyras
-Garviel Redth
-Artellus Rhy'tan
-Kregor Elbeth
-Lukas Orion
-Carab Krakendoom
+Alicia Dominica
+Andar Scarion
+Andreas Carnhide
+Antaro Chronus
 Anton Narvaez
-Nykona Eisenhorn
-Erik Boreale
-Mordacai Karkasy
-Malakim Redmaw
-Bran Maat
-Jorin Taranis
-Kjarl Enkomi
-Harl Amit
-Arvann Vibius
-Malakim Uthizzar
-Arik Akios
-Darnath Aiakos
-Alexis Bloodfang
-Hechtor Morkai
-Ferik Hef
-Malakim Morturg
-Hector Diomedes
-Macer Astelan
-Daerys Gaunt
-Hito Crowe
-Alexis Rockfist
-Baleq Gage
-Kor'sarro Deathwolf
-Arjac Gaunt
-Davian Kamir
-Marius Toth
-Carus Karlaen
-Merir Chirosius
-Lysimachus Wolfborn
-Dolan Grammaticus
-Carus Calgar
-Andreas Dragongaze
-Ghesmei Bloodfang
-Logan Narvaez
-Azariah Stern
-Lukas Russ
-Elam Gaunt
-Endryd Falkor
-Lukas Krakendoom
-Lufgt Aphael
-Garviel Ramas
-Merek Brom
-Gergerra Morturg
-Leoten Ravenor
-Hechtor Orion
-Indrick Deddog
-Bran Semper
-Jorin Falkor
-Hathor Moloc
-Dahka Ulanti
-Harath Cestus
-Hathor Kyras
-Dahka Kyras
-Krom El'Jonson
-Hito Qruze
-Macer Morturg
-Arenos Dravere
-Cyrene Kamir
-Hechtor Redmaw
-Ireton Chenkov
-Hechtor Thule
-Kyril Maat
-Garviel Cestus
-Harek Diomedes
-Meric Cortez
-Meric Avincus
-Lias Eisenhorn
-Ireton Deathwolf
-Anton Gaunt
-Gabriel Blaylock
-Bray'arth Culln
-Andreas Hax
-Jonah Numeon
-Ivanus Stern
-Arkash Greyweaver
-Barabas MaSade
-Baleq Lupercal
-Indrick Dhar
-Crysos Thann
-Dolan Avincus
-Carus Lupercal
-Horus Blaylock
-Ireton Taranis
-Cyrene Diomedes
-Daerys Chenkov
-Apollo Dannica
-Ferrus Moloc
-Artellus Wolfborn
-Cyrene Thule
-Erwin Angelos
-Kae Karamazov
-Gabriel Berus
-Harath Aphael
-Kyril Kaesoron
-Arkhan Russ
-Nomus Thawn
-Artellus Elbeth
-Kor'sarro Narvaez
-Fyodor Astelan
-Oan Alexander
-Gregor Lysander
-Iacton Morkai
-Hathor Thule
-Alessio Lupercal
-Ferrus Maat
-Leman Bastonne
-Arenos Rex
-Arik Dannica
-Nathaniel Severax
-Euphrati Grimblood
-Logan Grimblood
-Jaq Sindermann
-Daerys Izdubar
-Kjarl Khan
-Bjorn Brom
-Cato Keeler
-Donatos Krakendoom
-Ghesmei Akios
-Ivanus Belfry
-Kaldor Diomedes
-Ivixia Grimblood
-Krom Khan
-Baleq Avincus
-Ghankus Dragongaze
-Gabriel Voyen
-Gergerra Kalliston
-Barabas Wolfborn
-Cyrene Jurgen
-Menes Valantion
-Maxim Rex
-Horus Sindermann
-Garviel Kysnaros
-Arvann Cestus
-Carus Half-Hand
-Leoten Arrun
-Hechtor Draco
-Crysos Lupercal
-Mordacai Kaesoron
-Horus Borusa
-Erasmus Bloodfang
-Marius Kysnaros
-Hito Karlaen
-Mordacai Draco
-Castus Calgar
-Garran Belfry
-Nassir Huron
-Macer Avincus
+Anton Zerbe
+Anval Thawn
+Apollo Diomedes
+Arch Zealot of the Redemption
+Arenos Karlaen
+Arik Taranis
+Arjac Rockfist
+Arkash Hakkon
+Arkhan Land
+Armand Titus
+Artekus Bardane
+Artellus Numeon
+Arvann Stern
+Asmodai
+Asterion Moloc
+Astorath the Grim
+Autek Mor
+Avitus
+Azariah Kyras
+Azrael
+Baleq Uthizzar
+Barabas Dantioch
+Barthol Van Voytz
+Belial
+Belisarius Cawl
+Bernod Falkor
+Bjorn Stormwolf
+Bjorn the Fell-Handed
+Bohemond
+Bran Redmaw
+Brand Mac Lir
+Bray'arth Ashmantle
+Bulledin
+Canis Wolfborn
+Carab Culln
+Carnarvon
+Carus Brom
+Cassian Vaughn
+Castor
+Castus Izdubar
+Cato Sicarius
+Ciaphas Cain
+Corbulo
+Corswain
+Corvin Severax
+Corvus Corax
+Covenant
+Crysos Morturg
+Cybon
+Cypher
+Cyrene Valantion
+Cyrius
+Cyrus
+Daenor
+Daerys Arrun
+Daggan
+Dahka Berus
+Dante
+Darnath Lysander
+Davian Thule
+Dawn of War Characters
+Dilen Belfry
+Dolan Chirosius
+Donatos Aphael
+Egil Iron Wolf
+Eidolon
+Elam Courbray
+Emperor of Mankind
+Endryd Haar
+Engir Krakendoom
+Ephrael Stern
+Erasmus Tycho
+Erik Morkai
+Erwin Ramas
+Esteban de Dominova
+Eumenes
+Euphrati Keeler
+Ezekiel
+Ezrachi
+Fel Zharost
+Ferik Jurgen
+Ferrus Manus
+Fyodor Karamazov
+Gabriel Angelos
+Gabriel Seth
+Galatan
+Garran Crowe
+Garviel Loken
+Gergerra Rei
+Ghankus Dhar
+Ghesmei Kysnaros
+Gideon Ravenor
+Gregor Eisenhorn
+Gunnar Red Moon
+Harald Deathwolf
+Haran Serpens
+Harath Shen
+Harek Ironhelm
+Harl Greyweaver
+Hathor Maat
+Hecaton Aiakos
+Hechtor Dravere
+Hector Rex
+Helbrecht
+Helveticus
+Hito Ulanti
+Hol Beloth
+Horus Aximand
+Horus Lupercal
+Hyperion
+Iacton Qruze
+Ibram Gaunt
+Iddinam
+Ignace Karkasy
+Ignatius Grulgor
+Imperium of Man
+Indrick Boreale
+Ireton MaSade
+Isador Akios
+Ivanus Enkomi
+Ivixia Dannica
+Jaghatai Khan
+Jaq Draco
+Jater Elbeth
+John Grammaticus
+Jonah Orion
+Jorin Bloodhowl
+Julius Kaesoron
+Kae Drusil
+Kail Vibius
+Kaldor Draigo
+Kasper Ansbach Hawser
+Kelbor-Hal
+Khalophis
+Kjarl Grimblood
+Kleitus
+Klovis the Redeemer
+Kor'sarro Khan
+Korvydae
+Kregor Thann
+Krom Dragongaze
+Kryptman
+Kubrik Chenkov
+Kynar Half-Hand
+Kyril Sindermann
+Kyrl Grimblood
+Leman Russ
+Lemartes
+Leoten Semper
+Lias Issodon
+Lion El'Jonson
+Logan Grimnar
+Lufgt Huron
+Lugo
+Lukas Alexander
+Lukas Bastonne
+Lukas the Trickster
+Luthir Veremonn Goreman
+Lysimachus Cestus
+M'Shen
+Macaroth
+Macer Varren
+Macharius
+Maggard
+Magistus Amon
+Malakim Phoros
+Malcador the Sigillite
+Marius Avincus
+Marius Gage
+Marius Hax
+Marius Vairosean
+Marneus Calgar
+Martellus
+Maxim Borusa
+Menes Kalliston
+Mephiston
+Merek Grimaldus
+Meric Voyen
+Merir Astelan
+Meros
+Mira
+Mogul Kamir
+Mordacai Blaylock
+Mordecai Toth
+Moriar the Chosen
+Nassir Amit
+Nathaniel Garro
+Navar Hef
+Njal Stormcaller
+Nomus Rhy'tan
+Nork Deddog
+Nykona Sharrowkyn
+Nârik Dreygur
+Oan Mkoll
+Oberdeii
+Onator
+Orloc
+Ortan Cassius
+Outcast Dead
+Pasanius Lysane
+Pask
+Pedro Kantor
+Pellas Mir'san
+Pious Korren
+Poul Marlin
+Quesiah Ichabod
+Rafen
+Ragnar Blackmane
+Ranek Icewalker
+Ranulf
+Redemptor Kyrinov
+Remus Ventanus
+Revuel Arvida
+Roboute Guilliman
+Rogal Dorn
+Rylanor
+Saint Anais
+Saint Arabella
+Saint Celestine
+Saint Katherine
+Saint Lucia
+Saint Mina
+Saint Praxedes
+Saint Sabbat
+Saint Silvana
+Salem Whitlock
+Sammael
+Sanguinius
+Sanguinor, The
+Sapphon
+Sarpedon
+Saul Tarvitz
+Sebastian Yarrick
+Selena Agna
+Seventy, The
+Sevrin Loth
+Kayvaan Shrike
+Sidonus
+Sigismund
+Sigurd
+Silas Alberec
+Skold Greypelt
+Slaydo
+Solomon Demeter
+Solomon Lok
+Solomon Voss
+Sternhammer
+Stibor Lazaerek
+Stonetooth Harker
+Sturnn
+Sven Bloodhowl
+Szobczak
+Taremar Aurellian
+Tarik Torgaddon
+Tarikus
+Tarkus
+Tarnus Vale
+Tarran Cearr
+Tellos
+Thrar Hraldir
+Thulsa Kane
+Titus (Space Marine)
+Torias Telion
+Torquemada Coteaz
+Tu'Shan
+Tyberos
+Tylos Rubio
+Tyrus
+Uber Aemos
+Ulrik the Slayer
+Umberto II
+Ur'zan Drakgaard
+Uriah Olathaire
+Uriel Ventris
+Urienz
+Ursarkar E. Creed
+Vance Stubbs
+Varnus
+Varro Tigurius
+Vaylund Cal
+Velayne Ramaeus
+Veridyan
+Vespasian
+Vicente Sixx
+Vichres
+Volker Straub
+Vorth Mordrak
+Vulkan
+Vulkan He'stan
+Xavier
+Xavier Mendoza
+Xi-Nu 73
+Xiao
+Xiaphas Jurr
+Yason Annellus
+Zachariah Kersh
+Zardu Layak
+Zephro Carnelian
+Zhrukal Androcles
